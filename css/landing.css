@@ -1,0 +1,187 @@
+body {
+  font-family: "Lato", "Open Sans", "sans-serif";
+  background-color: #101010;
+  color: #eeeeee;
+  font-size: 1.2em;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 4em;
+  font-variant: small-caps;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+a {
+  color: #eeeeee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #eeeeee;
+}
+
+.center
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 14em;
+  text-align: center;
+}
+
+.banner {
+  background-color: hsla(0, 0%, 0%, 0.7);
+  padding: 1em 0;
+}
+
+.navbar {
+  padding: 1em;
+  float: right;
+}
+
+.bottom-align-thingo {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+}
+
+.super-great-guy {
+  padding: 10px;
+  transition: font-size 200ms ease-in-out;
+  cursor: help;
+}
+.super-great-guy:hover {
+  color: #fff;
+  font-size: 2em;
+}
+
+#particles {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-opaque-white {
+  background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+button:hover,
+button:active,
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button,
+.btn {
+  background: transparent;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #eeeeee;
+  text-decoration: none;
+  padding: 10px;
+  margin: 2px;
+  border: none;
+  /*border: solid 1px #eeeeee;*/
+  border-radius: 1px;
+}
+
+button:active,
+.btn:active,
+button:hover,
+.btn:hover {
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+.fadein {
+  -webkit-animation: fadein 0.7s linear;
+  -moz-animation: fadein 0.7s linear;
+  -o-animation: fadein 0.7s linear;
+  animation: fadein 0.7s linear;
+}
+
+.fadeout {
+  -webkit-animation: fadeout 0.55s linear;
+  -moz-animation: fadeout 0.55s linear;
+  -o-animation: fadeout 0.55s linear;
+  animation: fadeout 0.55s linear;
+}
+
+@-webkit-keyframes fadein {
+  0%   { opacity: 0; text-shadow: 0 0 5em #fff; }
+  25%  { opacity: 1; }
+  100% { text-shadow: none; }
+}
+@-moz-keyframes fadein {
+  0%   { opacity: 0; text-shadow: 0 0 5em #fff; }
+  25%  { opacity: 1; }
+  100% { text-shadow: none; }
+}
+@-o-keyframes fadein {
+  0%   { opacity: 0; text-shadow: 0 0 5em #fff; }
+  25%  { opacity: 1; }
+  100% { text-shadow: none; }
+}
+@keyframes fadein {
+  0%   { opacity: 0; text-shadow: 0 0 5em #fff; }
+  25%  { opacity: 1; }
+  100% { text-shadow: none; }
+}
+
+@-webkit-keyframes fadeout {
+  0% { text-shadow: none; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; text-shadow: 0 0 5em #fff; }
+}
+@-moz-keyframes fadeout {
+  0% { text-shadow: none; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; text-shadow: 0 0 5em #fff; }
+}
+@-o-keyframes fadeout {
+  0% { text-shadow: none; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; text-shadow: 0 0 5em #fff; }
+}
+@keyframes fadeout {
+  0% { text-shadow: none; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; text-shadow: 0 0 5em #fff; }
+}
+
+@media all and (max-width: 520px) {
+  .navbar {
+    float: none;
+  }
+
+  button,
+  .btn {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    margin-bottom: -1px;
+  }
+}
