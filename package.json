@@ -1,13 +1,14 @@
 {
-  "name": "lochlanbunn.com",
+  "name": "com.lochlanbunn",
   "version": "0.0.0",
-  "description": "lochlanbunn.com site",
+  "description": "lochlan bunn site",
   "scripts": {
     "start": "hjs-dev-server",
     "build": "NODE_ENV=production webpack",
     "test": "xo"
   },
-  "author": "",
+  "author": "Lochlan Bunn <loklaan@gmail.com>",
+  "private": true,
   "license": "Unlicense",
   "devDependencies": {
     "autoprefixer": "^6.3.6",

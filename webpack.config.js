@@ -3,7 +3,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = getConfig({
   in: 'src/app.js',
-  out: 'public',
+  out: 'dist',
   clearBeforeBuild: true
 });
 
