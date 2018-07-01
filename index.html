@@ -1,0 +1,165 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lochlan Bunn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700|Work+Sans:500" rel="stylesheet">
+    <style media="screen">
+      /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+      */
+
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed,
+      figure, figcaption, footer, header, hgroup,
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+    </style>
+
+    <style media="screen">
+      :root {
+        --color-bbg: cornflowerblue;
+        --color-bg: papayawhip;
+        --color-fg: royalblue;
+      }
+
+      html, body {
+        box-sizing: border-box;
+        font-size: 24px;
+      }
+
+      h1, p, ul {
+        margin-bottom: 1rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      li:last-of-type {
+        margin-bottom: 0rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 1.5rem;
+      }
+
+      p, li {
+        font-size: 1.2rem;
+        font-family: 'Work Sans', sans-serif;
+      }
+
+      ul {
+        list-style: square;
+        padding-left: 1rem;
+        margin-left: 1rem;
+      }
+
+      a {
+        text-decoration: underline;
+        color: currentColor;
+      }
+
+      body {
+        background-color: var(--color-bg);
+        color: var(--color-fg);
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .circle-container {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        height: 0px;
+        width: 0px;
+      }
+
+      .circle {
+        z-index: 1;
+        background-color: var(--color-fg);
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        height: 75vw;
+        width: 75vw;
+      }
+
+      .content {
+        z-index: 2;
+        margin: 0 0 5vw 5vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+
+      .content > *:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Lochlan Bunn</h1>
+
+      <p>UI Engineer from Australia</p>
+
+      <ul>
+        <li><a title="Lochlan's Twitter Profile" href="https://twitter.com/loklaan">Twitter</a></li>
+        <li><a title="Lochlan's GitHub Profile" href="https://github.com/loklaan">Github</a></li>
+      </ul>
+
+      <p>^ Come say hi ✌️</p>
+    </div>
+
+    <span class="circle-container">
+      <span class="circle"></span>
+    </span>
+  </body>
+</html>
