@@ -1,0 +1,31 @@
+{
+  "name": "lochlan.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:loklaan/site.git",
+  "author": "Lochlan Bunn <bunn@lochlan.io>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "serve ./",
+    "deploy": "now deploy && now alias"
+  },
+  "devDependencies": {
+    "now": "^11.4.5",
+    "serve": "^10.0.1"
+  },
+  "now": {
+    "public": false,
+    "type": "static",
+    "name": "lochlan.io",
+    "alias": "lochlan.io",
+    "files": [
+      "index.html",
+      "404.html",
+      "favicon.png"
+    ],
+    "static": {
+      "trailingSlash": true
+    }
+  }
+}
