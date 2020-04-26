@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [{
+    "src": "/",
+    "dest": "/index.html"
+  },{
+    "src": "/resume",
+    "dest": "/cv"
+  },{
+    "src": "/cv",
+    "dest": "/static/resume.pdf"
+  },{
+    "src": "/(.*)",
+    "status": 404,
+    "dest": "/404.html"
+  }]
+}
