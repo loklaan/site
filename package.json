@@ -7,25 +7,11 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "serve ./",
-    "deploy": "now deploy && now alias"
+    "start": "serve public/",
+    "deploy": "now deploy --prod"
   },
   "devDependencies": {
-    "now": "^11.4.5",
+    "now": "^18.0.0",
     "serve": "^10.0.1"
-  },
-  "now": {
-    "public": false,
-    "type": "static",
-    "name": "lochlan.io",
-    "alias": "lochlan.io",
-    "files": [
-      "index.html",
-      "404.html",
-      "favicon.png"
-    ],
-    "static": {
-      "trailingSlash": true
-    }
   }
 }
