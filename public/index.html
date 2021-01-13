@@ -5,7 +5,7 @@
     <title>Lochlan Bunn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#4169e2">
-    <meta name="description" content="Lochlan is an experienced UI Engineer from Brisbane Australia.">
+    <meta name="description" content="Lochlan is an experienced Creative Technologist & Product Engineer from Australia.">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:700|Work+Sans:500" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.png">
     <style media="screen">
@@ -66,11 +66,13 @@
       }
 
       h1, p, ul {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
 
       li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.85rem;
+        padding-left: 0.3rem;
+        font-size: 1.2rem;
       }
 
       li:last-of-type {
@@ -80,23 +82,31 @@
       h1 {
         font-size: 1.8rem;
         font-family: 'Space Mono', monospace;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
       }
 
       p, li {
-        font-size: 1.2rem;
         font-family: 'Work Sans', sans-serif;
+      }
+      
+      p {
+        color: #646473;
+        font-size: 1rem;
       }
 
       ul {
-        list-style: square;
+        list-style: lower-roman;
         padding-left: 1rem;
         margin-left: 1rem;
       }
 
       a {
-        text-decoration: underline;
+        text-decoration: none;
         color: currentColor;
+      }
+      
+      a:hover, a:focus, a:active {
+        text-decoration: underline;
       }
 
       body {
@@ -138,7 +148,13 @@
       }
 
       .content > *:last-child {
-        margin-bottom: 0;
+        margin-bottom: 1.5rem;
+      }
+
+      @media only screen and (min-width: 360px) {
+        .no-brk {
+          white-space: nowrap;
+        }
       }
     </style>
   </head>
@@ -146,14 +162,13 @@
     <div class="content">
       <h1>Lochlan Bunn</h1>
 
-      <p>Full Stack Developer from Australia, in London</p>
+      <p>Creative Technologist & Product Engineer</p>
 
       <ul>
+        <li><a title="Lochlan's LinkedIn Profile" href="https://linkedin.com/in/lochlanbunn">LinkedIn</a></li>
         <li><a title="Lochlan's Twitter Profile" href="https://twitter.com/loklaan">Twitter</a></li>
         <li><a title="Lochlan's GitHub Profile" href="https://github.com/loklaan">Github</a></li>
       </ul>
-
-      <p>^ Come say hi ✌️</p>
     </div>
 
     <span class="circle-container">
